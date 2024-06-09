@@ -6,4 +6,3 @@ build
 
 # Added by Homey CLI
 /.homeybuild/
-/drivers/vimar_thermostat_02952.b/pair
