@@ -1,0 +1,90 @@
+{
+  "title": {
+    "en": "KNX Receive",
+    "nl": "KNX Ontvangen"
+  },
+  "titleFormatted": {
+    "en": "Trigger when a [[data_type]] value is published on group address [[group_address]] on interface [[interface]]",
+    "nl": "Word getriggerd wanneer een [[data_type]] waarde wordt gepubliceerd op groepsadres [[group_address]] op interface [[interface]]"
+  },
+  "hint": {
+    "en": "Listen for an event from the KNX Bus on a specific group address",
+    "nl": "Luister naar een gebeurtenis van de KNX Bus op een specifiek groepsadres"
+  },
+  "args": [
+    {
+      "type": "autocomplete",
+      "name": "interface",
+      "title": {
+        "en": "Interface",
+        "nl": "Interface"
+      },
+      "placeholder": {
+        "en": "[any]",
+        "nl": "[elke]"
+      }
+    },
+    {
+      "type": "text",
+      "name": "group_address",
+      "title": {
+        "en": "Group Address",
+        "nl": "Groepsadres"
+      },
+      "placeholder": {
+        "en": "1/0/0",
+        "nl": "1/0/0"
+      }
+    },
+    {
+      "name": "data_type",
+      "title": {
+        "en": "Data Type",
+        "nl": "Gegevenstype"
+      },
+      "type": "autocomplete",
+      "placeholder": {
+        "en": "5.001",
+        "nl": "5.001"
+      }
+    }
+  ],
+  "tokens": [
+    {
+      "type": "number",
+      "name": "value_number",
+      "title": {
+        "en": "Value",
+        "nl": "Waarde"
+      },
+      "example": {
+        "en": "The value received",
+        "nl": "De ontvangen waarde"
+      }
+    },
+    {
+      "type": "boolean",
+      "name": "value_bool",
+      "title": {
+        "en": "Value",
+        "nl": "Waarde"
+      },
+      "example": {
+        "en": "The value received as a boolean",
+        "nl": "De ontvangen waarde als een boolean"
+      }
+    },
+    {
+      "type": "string",
+      "name": "value_string",
+      "title": {
+        "en": "Value",
+        "nl": "Waarde"
+      },
+      "example": {
+        "en": "The value received as a string",
+        "nl": "De ontvangen waarde als een string"
+      }
+    }
+  ]
+}
